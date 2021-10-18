@@ -32,6 +32,10 @@ namespace ShopigStore
         public void ConfigureServices(IServiceCollection services)
         {
             var key = Configuration["Key"];
+
+            // cors
+            //    services.AddCors();
+            // 
             services.AddControllers();
             services.AddAuthentication(x=>{
              x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -60,11 +64,27 @@ namespace ShopigStore
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            app.UseCors(corsPolicyBuilder =>
+                corsPolicyBuilder.WithOrigins("http://localhost:8080")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+            );
+
+            // app.UseHttpsRedirection();
 
             app.UseAuthentication();
             app.UseRouting();
             app.UseAuthorization();
+
+            //  app.UseCors(builder => builder
+            //     .AllowAnyHeader()
+            //     .AllowAnyMethod()
+            //     .SetIsOriginAllowed((host) => true)
+            //     .AllowCredentials()
+            // );
+            
+            
+
 
             app.UseEndpoints(endpoints =>
             {

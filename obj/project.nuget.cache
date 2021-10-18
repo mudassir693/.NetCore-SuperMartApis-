@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h8gkwVFxuB5sASW7sOBC0N0+hFfUt8P1hy6V39HB1SpQjw476H9uLkiMvbwwL7WBdwVmLXgrolT8GhgfXnvpuA==",
+  "dgSpecHash": "WSE7C+LJYoU1+R7U68UuN4Usx6Ye9/l6p6Yy4vth30WbeEAnhiHi1agWUavQ3QhptWzvnQ+nYn9skncUzZ3tZA==",
   "success": true,
   "projectFilePath": "F:\\Documents\\Dotnet\\ShopigStore\\ShopigStore.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.0.0\\microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512",
+    "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "C:\\Users\\cz\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",

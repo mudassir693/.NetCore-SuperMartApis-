@@ -9,7 +9,9 @@ using ShopigStore.Data;
 using ShopigStore.Dto;
 using ShopigStore.Model;
 
-
+let addition = (a,b)=>{
+    console.log('addition function')
+}
 
 namespace ShopigStore.Controllers
 {
